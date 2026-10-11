@@ -8,7 +8,7 @@ from kmk.kmk.scanners import DiodeOrientation
 keyboard = KMKKeyboard()
 
 keyboard.col_pins = (board.GP15, board.GP14, board.GP13, board.GP12, board.GP11, board.GP10, board.GP9, board.GP8, board.GP7, board.GP6, board.GP5, board.GP4, board.GP3, board.GP2, board.GP1, board.GP0)
-keyboard.row_pins = (board.GP21, board.GP20, board.GP19, board.GP18, board.GP17, board.GP16)
+keyboard.row_pins = (board.GP26, board.GP22, board.GP21, board.GP20, board.GP19, board.GP18)
 keyboard.diode_orientation = DiodeOrientation.COL2ROW
 
 keyboard.keymap = [
